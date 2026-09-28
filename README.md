@@ -1,4 +1,4 @@
-# INSTRUCTION.md
+# INSTRUCTION
 
 > **Frontend Practical Test**\
 > **Topic:** Reusable Product Card Component & Dynamic List Rendering\
