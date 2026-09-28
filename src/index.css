@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  --ink: #20201e;
+  --muted: #817b74;
+  --line: #d8d2ca;
+  --paper: #f5f2ec;
+  --card: #fbfaf7;
+  --coral: #e45b43;
+  --body: "DM Sans", sans-serif;
+  --heading: "DM Serif Display", serif;
+  --mono: "IBM Plex Mono", monospace;
+  color: var(--muted);
+  background: var(--paper);
+  font: 16px/1.45 var(--body);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  margin: 0;
+}
+#root {
+  min-height: 100vh;
+}
+p {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
