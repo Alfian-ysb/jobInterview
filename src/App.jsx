@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import './App.css'
 import products from './assets/products.json'
-import Card from './components/Card'
+// import Card from './components/Card'
 
 function App() {
 
