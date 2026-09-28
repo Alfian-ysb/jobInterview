@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import './App.css'
 import products from './assets/products.json'
-// import Card from './components/Card'
+import Card from './components/Card'
 
 function App() {
 
@@ -16,9 +16,22 @@ function App() {
         <h1>Objects with<br /><em>a point of view.</em></h1>
         <p className="intro-copy">A considered selection of useful, beautiful things made to stay in your daily orbit.</p>
       </section>
+
         <div className='product-grid'>
         {/* TODO:  Display the products here */}
-            
+          {products.map((product) => (
+            <Card 
+            key={product.id}
+              image={product.image}
+              name={product.name}
+              description={product.description}
+              category={product.category}
+              price={product.price}
+              rating={product.rating}
+              reviews={product.reviews}
+              badge={product.badge}
+            />
+          ))}
         </div>
 
       <footer className="catalogue-footer">
